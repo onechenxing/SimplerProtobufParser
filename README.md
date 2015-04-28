@@ -1,11 +1,13 @@
 # SimplerProtobufParser
 Simpler ProtobufParser use pure C# for Unity and all .net project
 
+纯C#代码实现了协议字节流的解析和生成。现主要给u3d编写，其他.net环境同样适用。
+本代码不用使用proto文件，全手动用C#构建和解析协议，编码量较大，无自动生成协议类，无法简化编码工作。
+当对于一些要求苛刻的平台（如ios），不会遇到任何使用限制。
+效率没有优化，不要在效率吃紧的环境使用。
 
-Unity3D Example:
 
-
-proto file:
+proto file like it:
 
 ----------------------------------------------------------Start
 
