@@ -8,7 +8,9 @@ Unity3D Example:
 proto file:
 
 ----------------------------------------------------------Start
+
 message SubMessage
+
 {
 
 	required float x = 1;
@@ -20,6 +22,7 @@ message SubMessage
 }
 
 message MainMessage
+
 {
 
 	required int32 id = 1;
