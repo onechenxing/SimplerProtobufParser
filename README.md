@@ -8,9 +8,7 @@ Unity3D Example:
 proto file:
 
 ----------------------------------------------------------Start
-
 message SubMessage
-
 {
 
 	required float x = 1;
@@ -22,7 +20,6 @@ message SubMessage
 }
 
 message MainMessage
-
 {
 
 	required int32 id = 1;
@@ -30,11 +27,9 @@ message MainMessage
 	required Vector3 pos = 2;
 	
 	repeated string names = 3;
-	
 }
 
 ----------------------------------------------------------End
-
 
 
 C# code:
