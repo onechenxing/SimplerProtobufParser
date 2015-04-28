@@ -1,3 +1,10 @@
+//----------------------------------------------
+// C# 简化版全局事件发送/接收类
+// @author: ChenXing
+// @email:  onechenxing@163.com
+// @date:   2015/04/01
+//----------------------------------------------
+
 using UnityEngine;
 using System;
 using System.Collections.Generic;
